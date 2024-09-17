@@ -37,6 +37,8 @@ function validateEmail(email) {
 }
 
 window.onload = function() {
+    window.scrollTo(0, 0);
+
     gsap.from("header", 1.5, {
         delay: 0,
         y: -300,
